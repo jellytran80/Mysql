@@ -9,3 +9,6 @@ esc to exit input mode
 :wq to save and close vim.
 sudo service mysql restart to restart MySQL.
 Done!
+
+
+# mysql -p -u root
