@@ -12,3 +12,13 @@ Done!
 
 
 # mysql -p -u root
+
+# set mode sql in select
+
+SET sql_mode = only_full_group_by;
+
+SELECT
+	id,
+	singer_id
+FROM
+	`song`
